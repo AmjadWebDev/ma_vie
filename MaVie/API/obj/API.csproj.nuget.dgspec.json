@@ -1,17 +1,148 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {}
+    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {
+    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
+        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
         "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\obj\\",
+        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
+              },
+              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
+                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +170,68 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
+        "projectName": "Presistence",
+        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
+        "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -56,9 +245,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
