@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {}
+    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {
+    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
+        "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\API.csproj",
         "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\obj\\",
+        "outputPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,14 +21,15 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj"
+              "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj"
               }
             }
           }
@@ -43,6 +44,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -74,14 +81,14 @@
         }
       }
     },
-    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
+    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\obj\\",
+        "outputPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,11 +105,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
+              "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
               },
-              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
-                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj"
+              "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
+                "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj"
               }
             }
           }
@@ -135,14 +142,14 @@
         }
       }
     },
-    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,14 +196,14 @@
         }
       }
     },
-    "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
+    "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
+        "projectUniqueName": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
         "projectName": "Presistence",
-        "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
+        "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\Presistence.csproj",
         "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\obj\\",
+        "outputPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Presistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,8 +220,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
+              "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\samma\\Desktop\\Udemy3\\React_Net\\ma_vie\\MaVie\\Domain\\Domain.csproj"
               }
             }
           }
